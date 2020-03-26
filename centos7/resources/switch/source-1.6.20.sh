@@ -64,7 +64,8 @@ verbose "install freeswitch by source end"
 # 安装语音文件
 wget https://hzxgo.oss-cn-shanghai.aliyuncs.com/file/fs_sounds_en_zh_8000.tar.bz2
 tar xjf fs_sounds_en_zh_8000.tar.bz2
-cp -rf sounds /usr/share/freeswitch/sounds
+mv sounds /usr/share/freeswitch/sounds
+rm -rf fs_sounds_en_zh_8000.tar.bz2
 
 
 ./configure --prefix=/usr --localstatedir=/var --sysconfdir=/etc

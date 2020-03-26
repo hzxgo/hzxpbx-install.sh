@@ -106,7 +106,7 @@ cd /var/www/fusionpbx && php /var/www/fusionpbx/core/upgrade/upgrade_domains.php
 systemctl daemon-reload
 systemctl mask wpa_supplicant.service
 systemctl stop wpa_supplicant.service
-systemctl enable fail2ban
+#systemctl enable fail2ban
 systemctl enable ntpd
 systemctl enable php-fpm
 systemctl enable nginx

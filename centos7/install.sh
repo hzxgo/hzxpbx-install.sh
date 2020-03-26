@@ -56,3 +56,9 @@ systemctl restart fail2ban
 
 #add the database schema, user and groups
 resources/finish.sh
+
+# 关闭fail2ban
+systemctl stop fail2ban
+
+# 安装后最好重启
+# reboot

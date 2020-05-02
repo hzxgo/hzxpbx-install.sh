@@ -4,7 +4,7 @@
 yum -y install git
 
 #get the install script
-cd /usr/src && git clone https://github.com/hzxgo/fusionpbx-install.git
+cd /usr/src && git clone https://github.com/hzxgo/hzxpbx-install.git
 
 #change the working directory
-cd /usr/src/fusionpbx-install/centos
+cd /usr/src/hzxpbx-install/centos

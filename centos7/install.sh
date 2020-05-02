@@ -10,7 +10,7 @@ cd "$(dirname "$0")"
 . ./resources/colors.sh
 
 # Update CentOS 
-verbose "Begin to install Y-Free At CentOS7"
+verbose "Begin to install hzxpbx At CentOS7"
 
 # Install basic packages
 resources/basic.sh

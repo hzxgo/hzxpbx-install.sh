@@ -1,1 +1,1 @@
-# y-free-install.sh
+# hzxpbx-install.sh

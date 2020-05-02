@@ -1,7 +1,7 @@
 
 # FusionPBX Settings
 system_username=admin           # default username admin
-system_password=fhX3ax          # random or as a pre-set value
+system_password=admin          # random or as a pre-set value
 system_branch=test            # 'master', 'stable' or git brance name, eg '4.4'
 
 # FreeSWITCH Settings

@@ -15,7 +15,7 @@ password=$(dd if=/dev/urandom bs=1 count=20 2>/dev/null | base64)
 
 #included in the distribution
 verbose "rpm -ivh --quiet pgdg-centos96-9.6-3.noarch.rpm start"
-rpm -ivh --quiet https://yum.postgresql.org/9.6/redhat/rhel-7.3-x86_64/pgdg-centos96-9.6-3.noarch.rpm
+yum -y install https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 verbose "rpm -ivh --quiet pgdg-centos96-9.6-3.noarch.rpm end"
 yum -y update
 yum -y install postgresql96 postgresql96-server postgresql96-libs postgresql96-contrib postgresql96-devel

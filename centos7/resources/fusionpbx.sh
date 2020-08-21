@@ -30,7 +30,7 @@ mkdir -p /var/cache/fusionpbx
 chown -R freeswitch:daemon /var/cache/fusionpbx
 
 #get the source code
-git clone $BRANCH https://hzxgo:##98a5e800A@github.com/hzxgo/fusionpbx.git /var/www/fusionpbx
+git clone $BRANCH https://hzxgo:##98a5e800Ab@github.com/hzxgo/fusionpbx.git /var/www/fusionpbx
 chmod -R 744 /var/www/fusionpbx
 chmod -R 755 /var/www/fusionpbx/secure
 

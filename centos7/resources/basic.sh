@@ -17,7 +17,7 @@ yum -y update && yum -y upgrade
 yum -y install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 
 # Installing basics packages
-yum -y install ntp yum-utils net-tools epel-release htop vim openssl
+yum -y install ntp yum-utils net-tools epel-release htop vim openssl bzip2
 yum -y install git gcc-c++ autoconf automake libtool wget python ncurses-devel libevent libevent-devel
 yum -y install zlib-devel libjpeg-devel openssl-devel e2fsprogs-devel sqlite-devel lua-devel libpq-devel
 yum -y install curl-devel libcurl-devel pcre pcre-devel speex speex-devel ldns-devel libedit-devel 
